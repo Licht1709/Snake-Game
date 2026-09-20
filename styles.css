@@ -1,0 +1,53 @@
+* {
+    font-family:fantasy;
+}
+
+#tablerin, .infotablerin {
+    max-width: 800px;
+}
+
+#tablerin {
+    display:  grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+#comenzar, .infotablerin{
+    font-size: 30px;
+}
+
+#perdio {
+    display: none;
+
+}
+
+.infotablerin{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+#comenzar {
+    background-color: orange;
+    border: none;
+    color:dodgerblue;
+}
+
+#puntu2 {
+    display: inline-flex;
+}
+
+.cuadrado {
+    aspect-ratio: 1.5;
+}
+
+.Cvacio{
+    background-color: rgb(17, 54, 133);
+}
+
+.CSerpi{
+    background-color: rgb(40, 226, 16);
+}
+
+.Ccomida{
+    background-color: blueviolet;
+}
